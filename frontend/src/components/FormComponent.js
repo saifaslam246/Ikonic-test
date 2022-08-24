@@ -45,7 +45,7 @@ function FormComponent() {
               <Box key={i}>
                 <Checkbox {...label} onClick={(e) => handleChange(e, i)} />
                 <TextField
-                  sx={{ width: "80%", marginBottom: 2 }}
+                  sx={{ width: "60%", marginBottom: 2 }}
                   id="outlined-basic"
                   label="Enter your Option"
                   variant="outlined"

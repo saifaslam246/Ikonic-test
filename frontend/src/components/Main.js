@@ -87,7 +87,9 @@ export default function DirectionStack() {
         </ItemLeft>
         <ItemRight>
           <TypographyWrapper>Preview Mode</TypographyWrapper>
-          <InfoPaper>{inputData ? `Q: ${inputData}` : ""}</InfoPaper>
+          <InfoPaper>
+            {inputData ? `Q: ${inputData}` : "There is no question"}
+          </InfoPaper>
           <Box sx={{ display: "flex", gap: 2 }} type="A" row>
             <ol type="A">
               {item?.map((item) => {
@@ -96,7 +98,9 @@ export default function DirectionStack() {
             </ol>
           </Box>
           <InfoPaper>
-            {selectValue ? `Q: ${selectValue}` : "No answer select"}
+            {selectValue
+              ? `Correct Answer is : ${selectValue}`
+              : "No answer select"}
           </InfoPaper>
         </ItemRight>
       </Stack>
