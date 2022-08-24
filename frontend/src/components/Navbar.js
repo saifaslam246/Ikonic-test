@@ -15,7 +15,7 @@ export default function MenuPopupState() {
               sx={{ marginBottom: 5, marginTop: 5, marginLeft: 30 }}
             >
               <Link style={{ color: "white", textDecoration: "none" }} to="/">
-                Dashboard
+                Post a Question
               </Link>
             </Button>
             <Button
