@@ -1,6 +1,6 @@
-# Final Year Project
+# IKONIC test
 
-> This project built with Node.js, React, Redux, Express, MongoDB
+> This project built with Node.js, React, Express, MongoDB
 
 ### Env Variables
 
@@ -11,19 +11,12 @@ Add your config variables values in the config.env file in backend/config folder
 ```
 cd frontend
 npm i
+npm start
 ```
 
 ### Install Dependencies (Backend)
 
 ```
 npm i
-```
-
-### Seed Database
-
-Use the following commeand to put some dummy products in that database.
-Run it in the root folder.
-
-```
-npm run seeder
+npm run dev
 ```
